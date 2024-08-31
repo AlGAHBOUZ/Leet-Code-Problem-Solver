@@ -65,8 +65,10 @@ The Gradio interface provides a user-friendly front end for interacting with the
 The model was tested on 104 LeetCode problems with an impressive 93% accuracy. The problems included:
 
 47 hard problems
+
 51 medium problems
-5 easy problems. 
+
+5 easy problems
 
 These problems covered various topics such as math, dynamic programming, trees, graphs, strings, and more.
 
