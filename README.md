@@ -4,11 +4,17 @@ This repository features an AI model built using Crew AI, designed to solve comp
 
 ## Features
 Web Scraping: Scrapes LeetCode problem statements directly from the website.
+
 Problem Simplification: Breaks down complex problems into simple, clear tasks.
+
 Problem Classification: Identifies the category of the problem (e.g., dynamic programming, graph theory).
+
 Algorithm Suggestion: Recommends algorithms suited to solving the problem.
+
 Code Generation: Automatically writes code (usually python) to solve the problem.
+
 Test Case Development: Creates comprehensive test cases, including edge cases, to validate the solution.
+
 Code Execution and Validation: Runs the generated code against the test cases to ensure correctness.
 
 ## How to Use?
@@ -24,12 +30,19 @@ The model is structured around agents and tasks, each playing a specific role in
 
 #### Agents:
 Each agent is responsible for a specific task in the problem solving process:
+
 Scraper: Extracts problem details from the provided link.
+
 Simplifier: Breaks down the problem into goal, input, and output.
+
 Problem Identifier: Classifies the problem into a specific category.
+
 Algorithm Suggester: Suggests suitable algorithms to solve the problem.
+
 Coder: Writes Python code based on the suggested algorithms.
+
 Test Case Developer: Creates test cases to validate the solution.
+
 Code Runner: Executes the code against the test cases and validates the output.
 
 #### Tasks: 
@@ -51,8 +64,7 @@ The model was tested on 104 LeetCode problems with an impressive 93% accuracy. T
 These problems covered various topics such as math, dynamic programming, trees, graphs, strings, and more.
 
 ## Limitations
-The model's performance may vary depending on the complexity and nature of the problem.
-While the accuracy is high, there may be edge cases that the model fails to handle.
+The model's performance may vary depending on the complexity and nature of the problem. Moreover, while the accuracy is high, there may be edge cases that the model fails to handle.
 
 ## Contributions
 Contributions to this project are welcome! If you encounter any bugs, issues, or have ideas for enhancements, feel free to open an issue or submit a pull request. Your input is valuable in improving the model and expanding its capabilities.
