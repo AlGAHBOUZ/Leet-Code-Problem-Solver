@@ -18,12 +18,17 @@ Test Case Development: Creates comprehensive test cases, including edge cases, t
 Code Execution and Validation: Runs the generated code against the test cases to ensure correctness.
 
 ## How to Use?
-Clone the repository to your local machine.
-Ensure you have the required dependencies installed (e.g., Crew AI, Gradio, utils).
-Run the main.py file to launch the Gradio interface.
-Input the problem either as a link or as text.
-Click "Start" to execute the problem-solving process.
-The solution will be displayed, and you can download the resulting Python file.
+1) Clone the repository to your local machine.
+
+2) Ensure you have the required dependencies installed (e.g., Crew AI, Gradio, utils).
+
+3) Run the main.py file to launch the Gradio interface.
+
+4) Input the problem either as a link or as text.
+
+5) Click "Start" to execute the problem-solving process.
+
+6) The solution will be displayed, and you can download the resulting Python file.
 
 ## Code Explanation
 The model is structured around agents and tasks, each playing a specific role in the problem-solving process. Below is an explanation of the main components:
