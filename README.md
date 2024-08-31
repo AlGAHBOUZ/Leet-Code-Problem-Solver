@@ -28,22 +28,29 @@ The solution will be displayed, and you can download the resulting Python file.
 ## Code Explanation
 The model is structured around agents and tasks, each playing a specific role in the problem-solving process. Below is an explanation of the main components:
 
-#### Agents:
+### Agents:
 Each agent is responsible for a specific task in the problem solving process:
 
-Scraper: Extracts problem details from the provided link.
+#### Scraper: 
+Extracts problem details from the provided link.
 
-Simplifier: Breaks down the problem into goal, input, and output.
+#### Simplifier:
+Breaks down the problem into goal, input, and output.
 
-Problem Identifier: Classifies the problem into a specific category.
+#### Problem Identifier: 
+Classifies the problem into a specific category.
 
-Algorithm Suggester: Suggests suitable algorithms to solve the problem.
+#### Algorithm Suggester: 
+Suggests suitable algorithms to solve the problem.
 
-Coder: Writes Python code based on the suggested algorithms.
+#### Coder:
+Writes Python code based on the suggested algorithms.
 
-Test Case Developer: Creates test cases to validate the solution.
+#### Test Case Developer: 
+Creates test cases to validate the solution.
 
-Code Runner: Executes the code against the test cases and validates the output.
+#### Code Runner: 
+Executes the code against the test cases and validates the output.
 
 #### Tasks: 
 Each task corresponds to an agent's action, linked together in a sequence to form a coherent problem-solving pipeline. For example, the scrap task initializes the scraping process, followed by simplify, which simplifies the problem, and so on until the final validation.
